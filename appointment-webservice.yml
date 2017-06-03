@@ -1,6 +1,13 @@
 server:
   port: 8084
 
+patient-webservice:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8082,localhost:18082
+    ServerListRefreshInterval: 15000
+
 eureka:
   client:
     serviceUrl:
