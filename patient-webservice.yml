@@ -1,5 +1,5 @@
 instance:
-  name: "[I01]"
+  name: "[INSTANCE-01]"
 server:
   port: 8082
 
